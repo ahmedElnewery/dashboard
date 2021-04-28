@@ -76,7 +76,7 @@ const initialState = [
   
 ];
 const TableBody = () => {
-  const [orders, setOrders] = useState(initialState);
+  const [orders] = useState(initialState);
 
   return (
     <tbody className="bg-dark divide-y divide-gray-200">

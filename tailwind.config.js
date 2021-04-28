@@ -8,10 +8,14 @@ module.exports = {
         "dark":"#202342",
         "white":"#E5E5E5",
         "secondary":"#01A9F4",
+        "light-sec":"#323662",
         "success":"#63F4F7",
+        "sky":"#01A9F4",
+        "blood":"#EC4165",
         "danger":"#FE7448",
-        "lightSuccess":"#e0fdfd"
-    
+        "lightSuccess":"#e0fdfd",
+
+        "turquoise":"#1EC1C3"
       
       },
       fontFamily: {

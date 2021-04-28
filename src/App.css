@@ -9,7 +9,7 @@
     border-radius: 4px;
    }
    .order-table::-webkit-scrollbar-thumb:hover{
-    background: #2B2F55
+    background: rgba(255, 255, 255, 0.4);
    }
    .order-table::-webkit-scrollbar-track{
     border-radius: 10px;
