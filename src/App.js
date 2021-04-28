@@ -2,7 +2,7 @@ import './App.css';
 import Dashboard  from'./components/Screens/Dashboard/Dashboard'
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Dashboard/>
     </div>
   );

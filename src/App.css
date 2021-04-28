@@ -1,0 +1,21 @@
+
+.order-table::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+   }
+   .order-table::-webkit-scrollbar-thumb {
+    background:rgba(255, 255, 255, 0.4);
+    transition: all ease-in .5s;
+    border-radius: 4px;
+   }
+   .order-table::-webkit-scrollbar-thumb:hover{
+    background: #2B2F55
+   }
+   .order-table::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px rgba(255, 255, 255, 0.1);
+   }
+   .label {
+       font-size: 10px;
+       font-weight: 700;
+   }
