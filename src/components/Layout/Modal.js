@@ -22,7 +22,12 @@ const Modal = (props) => {
   const handleClose = (props) => {
     dispatch(closeModal());
   };
-
+  let inputClasses =
+    " rounded-md mb-4 mt-2 appearance-none border border-dark-primary w-full py-2 pl-2 bg-dark-primary text-white placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent ";
+  inputClasses +=
+    formik.touched.email && formik.errors.email
+      ? " border-danger focus:ring-danger "
+      : "  ";
   return isOpen ? (
     <div className=" bg-opacity-50 w-full h-full left-0 top-0 flex  justify-center items-center fixed z-10  text-gray ">
       <div className="md:w-2/5 w-4/5 h-60  rounded-xl ">
@@ -33,7 +38,7 @@ const Modal = (props) => {
             <input
               type="email"
               name="email"
-              className="rounded-md mb-4 mt-2 appearance-none border border-dark-primary w-full py-2 pl-2 bg-dark-primary text-white placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent "
+              className={inputClasses}
               placeholder="Enter the email address"
               onChange={formik.handleChange}
               value={formik.values.email}
