@@ -1,8 +1,14 @@
 import { ReactComponent as TransferIcon } from "../../../assets/icons/transfer.svg";
 import Btn from "../../UI/Btn";
 import { ReactComponent as ChervronRight } from "../../../assets/icons/chevron-right.svg";
+import { useDispatch } from "react-redux";
+import { openModal } from "../../../store/action/modalActions";
 
 const Transfer = (props) => {
+    const dispatch = useDispatch()
+    const handleOpen = () =>{
+        dispatch(openModal())
+    }
     return ( 
         <div className="p-6 bg-primary rounded-lg">
             <div className="inline-flex">
@@ -20,7 +26,7 @@ const Transfer = (props) => {
           <p className="xl:m-0 mb-4">anthony2142@emaill.com</p>
           
         </div>
-        <Btn size="md" variant="custom" className="lg:w-full xl:w-auto ">
+        <Btn size="md" variant="custom" className="lg:w-full xl:w-auto " onClick ={handleOpen}>
          Transfer 
           <ChervronRight className="inline "/>
         </Btn>

@@ -25,7 +25,7 @@ const Btn = (props) => {
       break;
   }
   return (
-    <button className={classes + " " + props.className}>
+    <button className={classes + " " + props.className} onClick={props.onClick}>
       {props.children}
     </button>
   );

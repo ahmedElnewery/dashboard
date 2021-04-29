@@ -15,7 +15,10 @@ module.exports = {
         "danger":"#FE7448",
         "lightSuccess":"#e0fdfd",
 
-        "turquoise":"#1EC1C3"
+        "turquoise":"#1EC1C3",
+        "light-primary":"#2D325A",
+        "dark-primary":"#292D52"
+        
         
       },
       fontFamily: {

@@ -9,7 +9,7 @@ import TableBody from "../../Dashboard/Table/TableBody";
 import TableHeader from "../../Dashboard/Table/TableHeader";
 import Transfer from "../../Dashboard/Transfer/Transfer";
 import Page from "../../Layout/Page";
-import DiscordBox from './../../Dashboard/DiscordBox/DiscordBox'
+import DiscordBox from "./../../Dashboard/DiscordBox/DiscordBox";
 // import style from './Dashboard.module.css'
 const Dashboard = () => {
   return (
@@ -17,14 +17,12 @@ const Dashboard = () => {
       <div className="grid  grid-cols-12 lg:gap-12 ">
         <div className=" lg:col-span-8 col-span-12 ">
           <div className="mb-10">
-          <FilterationGroup>
-            <FilterBox />
-            <TotalCheckouts />
-            <TotalFailures />
-          </FilterationGroup>
-
+            <FilterationGroup>
+              <FilterBox />
+              <TotalCheckouts />
+              <TotalFailures />
+            </FilterationGroup>
           </div>
-
           <Table>
             <TableHeader />
             <TableBody />
@@ -32,19 +30,16 @@ const Dashboard = () => {
         </div>
         <div className="lg:col-span-4 col-span-12 ">
           <div className="mb-8 mt-8">
-          <LicenseBox/>
+            <LicenseBox />
           </div>
           <div className="mb-8">
-          <DiscordBox/>
-
+            <DiscordBox />
           </div>
           <div className="mb-8">
-          <Transfer/>
-
+            <Transfer />
           </div>
           <div className="mb-8">
-          <Download/>
-
+            <Download />
           </div>
         </div>
       </div>
