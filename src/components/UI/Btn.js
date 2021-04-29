@@ -25,7 +25,12 @@ const Btn = (props) => {
       break;
   }
   return (
-    <button className={classes + " " + props.className} onClick={props.onClick}>
+    <button
+      className={classes + " " + props.className}
+      onClick={props.onClick}
+      type={props.type}
+      disabled={props.disabled}
+    >
       {props.children}
     </button>
   );
