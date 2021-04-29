@@ -4,7 +4,7 @@ import Btn from "../../UI/Btn";
 const DiscordBox = () => {
   return (
     <div className="p-6 bg-primary rounded-lg">
-      <div className="lg:flex justify-between items-center">
+      <div className="flex justify-between items-center">
         <div className="discord">
           <div className="inline-flex">
               <span className="mr-2">

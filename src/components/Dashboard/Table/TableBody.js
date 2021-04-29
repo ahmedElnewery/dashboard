@@ -73,6 +73,33 @@ const initialState = [
     price: "$252",
     status: "fail",
   },
+  {
+    id: "9",
+    date: "22 Feb 2021",
+    product: "Jordan 6 Retro Carmine (2021)",
+    size: "10.0",
+    website: "Footlocker UK",
+    price: "$252",
+    status: "fail",
+  },
+  {
+    id: "10",
+    date: "22 Feb 2021",
+    product: "Jordan 6 Retro Carmine (2021)",
+    size: "10.0",
+    website: "Footlocker UK",
+    price: "$252",
+    status: "fail",
+  },
+  {
+    id: "11",
+    date: "22 Feb 2021",
+    product: "Jordan 6 Retro Carmine (2021)",
+    size: "10.0",
+    website: "Footlocker UK",
+    price: "$252",
+    status: "fail",
+  },
   
 ];
 const TableBody = () => {

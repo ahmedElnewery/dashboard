@@ -16,7 +16,7 @@ module.exports = {
         "lightSuccess":"#e0fdfd",
 
         "turquoise":"#1EC1C3"
-      
+        
       },
       fontFamily: {
         helvetica: ["Helvetica Neue"],

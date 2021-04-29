@@ -1,6 +1,6 @@
 const FilterationGroup = (props) => {
     return ( 
-        <div className="flex justify-between ">
+        <div className="lg:flex justify-between flex-shrink">
             {props.children}
         </div>
      );

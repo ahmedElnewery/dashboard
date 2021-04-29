@@ -13,14 +13,14 @@ const Transfer = (props) => {
             <span className="text-sm font-bold"> Transfer</span>
 
           </div>
-      <div className="xl:flex justify-between items-center">
+      <div className="flex xl:justify-between items-center lg:flex-wrap justify-between">
         <div className="email">
           
           <p className="text-xs text-white opacity-60">Current Email</p>
-          <p className=" ">anthony2142@emaill.com</p>
+          <p className="xl:m-0 mb-4">anthony2142@emaill.com</p>
           
         </div>
-        <Btn size="md" variant="custom" className=" w-full">
+        <Btn size="md" variant="custom" className="lg:w-full xl:w-auto ">
          Transfer 
           <ChervronRight className="inline "/>
         </Btn>

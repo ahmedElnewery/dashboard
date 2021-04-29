@@ -1,3 +1,4 @@
+import Download from "../../Dashboard/Download/Download";
 import FilterationGroup from "../../Dashboard/FilterationGroup/FilterationGroup";
 import FilterBox from "../../Dashboard/FilterationGroup/FilterBox";
 import TotalCheckouts from "../../Dashboard/FilterationGroup/TotalCheckouts";
@@ -13,7 +14,7 @@ import DiscordBox from './../../Dashboard/DiscordBox/DiscordBox'
 const Dashboard = () => {
   return (
     <Page title="dashboard">
-      <div className="grid  grid-cols-12 gap-12 ">
+      <div className="grid  grid-cols-12 lg:gap-12 ">
         <div className=" lg:col-span-8 col-span-12 ">
           <div className="mb-10">
           <FilterationGroup>
@@ -30,7 +31,7 @@ const Dashboard = () => {
           </Table>
         </div>
         <div className="lg:col-span-4 col-span-12 ">
-          <div className="mb-8">
+          <div className="mb-8 mt-8">
           <LicenseBox/>
           </div>
           <div className="mb-8">
@@ -39,6 +40,10 @@ const Dashboard = () => {
           </div>
           <div className="mb-8">
           <Transfer/>
+
+          </div>
+          <div className="mb-8">
+          <Download/>
 
           </div>
         </div>
